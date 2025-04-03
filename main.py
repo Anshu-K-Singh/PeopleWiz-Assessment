@@ -4,6 +4,9 @@ from groq import Groq
 import PyPDF2
 from datetime import datetime
 
+import os
+port = int(os.getenv("PORT", 5001))
+serve(port=port)
 # Groq setup
 groq_client = Groq(api_key="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")
 
