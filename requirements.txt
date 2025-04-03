@@ -1,3 +1,3 @@
-fasthtml
+python-fasthtml
 groq
 PyPDF2
